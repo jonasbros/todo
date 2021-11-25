@@ -1,0 +1,8 @@
+.todo-pulse-animation {
+  animation: pulse .3s forwards;
+}
+
+@keyframes pulse {
+  50% {transform: scale(1.15);}
+  100% {transform: scale(1);}
+} 
